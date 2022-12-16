@@ -1,8 +1,8 @@
 body
 {
   font-family:sans-serif;
-  background: -webkit-linear-gradient(to right, #155799, #159957);
-  background: linear-gradient(to right, #155799, #159957);
+  background: -webkit-linear-gradient(to right,#1A1A1D ,#6f2232);
+  background: linear-gradient(to right,#1A1A1D, #6f2232);
   color:whitesmoke;
 }
 
@@ -33,14 +33,16 @@ input[type=text], input[type=password]{
   }
 
 button {
-    background-color: #030804;
+    background-color: #6f2232;
     color: white;
+    border: none;
     padding: 14px 20px;
     border-radius: 5px;
     margin: 7px 0;
     width: 100%;
     font-size: 18px;
-  }
+}
+  
 
 button:hover {
     opacity: 0.6;
